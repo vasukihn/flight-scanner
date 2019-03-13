@@ -1,0 +1,156 @@
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    align-self: center;
+}
+
+.middle-flight-list-container {
+    flex: 1;
+    overflow: auto;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    height: 2.5em;
+    width: 10em;
+    color: #fff;
+    background-color: #0AA8FB;
+    border: none;
+    transition: 0.3s opacity ease;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.form-submit:disabled, .form-submit:hover:disabled {
+    background-color: #BEC8E0;
+}
+
+.middle-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.middle-body-top-panel {
+    display: flex;
+}
+
+.middle-body-top-left-panel {
+    width: 20rem;
+    background: #E2E6EC;
+    padding: 10px;
+}
+
+.middle-body-top-left-panel-slider {
+    padding: 10px 30px;
+}
+
+.ant-table-fixed-header .ant-table-scroll .ant-table-header {
+    overflow-y: auto;
+    margin-right: 17px;
+}
+
+.ant-calendar-picker {
+    width: 280px;
+}
+
+.selected-row {
+    background: #7081A2;
+    color: white;
+}
+
+.selected-row > td {
+    background: #7081A2 !important;
+    color: white;
+}
+
+.selected-row:hover {
+    background: #7081A2 !important;
+    color: white !important;
+}
+
+.middle-body-top-left-panel-date-picker {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.middle-body-top-panel {
+    height: 100%;
+}
+
+.form-submit:hover {
+    background-color: #1B3E93;
+}
+
+.form-submit:focus {
+    background-color: #FF7f45;
+}
+
+.ant-slider-mark-text {
+    width: 35px;
+}
+
+.middle-body-top-left-panel-date-picker {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-body-top-left-panel-label {
+    margin: 7px;
+}
+
+.middle-origin-destination-filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.middle-origin-destination-filters-label {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.middle-fetch-flights-button-container {
+    display: flex;
+}
+
+.fetch-flights {
+    flex: 1;
+    margin: 0.5rem;
+}
+
+.ant-table-row {
+    cursor: pointer;
+}
+
+.middle-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 8px;
+}
+
+.to-purchase-button {
+    margin: 1rem;
+}
+
+.middle-left-panel {
+    width: 20vw;
+    min-width: 20vw;
+    padding: 1em;
+    overflow: hidden;
+}
+

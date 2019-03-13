@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.middle-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.ant-card {
+    width: 350px !important;
+}
