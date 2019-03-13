@@ -14,3 +14,6 @@
 
 * To get docker host ip run
 > $ docker-machine env
+
+### Note
+** Ports 3000, 3001 and 5432 should be available
