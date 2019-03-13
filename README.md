@@ -9,8 +9,8 @@
 * Run below command on the root Docker file
 > $ docker-compose up 
 
-* Visit http://localhost:8080/purchase or http://host-ip:8080/purchase
-  * Incase of WIndows 7 then use http://192.168.99.100:8080/purchase
+* Visit http://localhost:8080/ or http://host-ip:8080/
+  * Incase of WIndows 7 then use http://192.168.99.100:8080/
 
 * To get docker host ip run
 > $ docker-machine env
