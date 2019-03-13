@@ -16,4 +16,4 @@
 > $ docker-machine env
 
 ### Note
-** Ports 3000, 3001 and 5432 should be available
+**Ports 3000, 3001 and 5432 should be available**
